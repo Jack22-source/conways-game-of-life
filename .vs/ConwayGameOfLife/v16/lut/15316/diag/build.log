@@ -1,0 +1,39 @@
+[21:03:42.147 Verbose] - BuildManager - C:\_repos\personal\interview-qs\ConwayGameOfLife\ConwayGameOfLife\ConwayGameOfLife.Test\UnitTest1.cs(16,33): error CS7036: There is no argument given that corresponds to the required formal parameter 'display' of 'Conway.Conway(IDisplay)'
+[21:03:42.147 Verbose] - BuildManager - C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\MSBuild\Current\Bin\Roslyn\Microsoft.CSharp.Core.targets(70,5): error MSB4181: The "Csc" task returned false but did not log an error.
+[21:03:42.153 Verbose] - BuildManager - Some of the file paths defined in the csproj under the Live Unit Testing build path are missing. Verify whether these files should be present under the Live Unit Testing build path and if necessary update the csproj definition to look these files up in a different place.
+[21:03:42.154 Verbose] - BuildManager - Item _OutputPathItem 'C:\_repos\personal\interview-qs\ConwayGameOfLife\ConwayGameOfLife\.vs\ConwayGameOfLife\v16\lut\0\b\ConwayGameOfLife.Test\Debug\netcoreapp3.1\' evaluated via:
+_OutputPathItem: '$(OutDir)' @ C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\MSBuild\Current\Bin\Microsoft.Common.CurrentVersion.targets:272
+  OutDir: '$(OutputPath)' @ C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\MSBuild\Current\Bin\Microsoft.Common.CurrentVersion.targets:193
+    OutputPath: '$(OutputPath)$(TargetFramework.ToLowerInvariant())\' @ C:\Program Files\dotnet\sdk\3.1.401\Sdks\Microsoft.NET.Sdk\targets\Microsoft.NET.TargetFrameworkInference.targets:186
+      OutputPath: '$(BaseOutputPath)$(Configuration)\' @ C:\Program Files\dotnet\sdk\3.1.401\Sdks\Microsoft.NET.Sdk\targets\Microsoft.NET.DefaultOutputPaths.targets:33
+        BaseOutputPath: 'C:\_repos\personal\interview-qs\ConwayGameOfLife\ConwayGameOfLife\.vs\ConwayGameOfLife\v16\lut\0\b\ConwayGameOfLife.Test\' @ C:\_repos\personal\interview-qs\ConwayGameOfLife\ConwayGameOfLife\ConwayGameOfLife.Test\ConwayGameOfLife.Test.csproj:0
+        Configuration: 'Debug'
+[21:03:42.154 Verbose] - BuildManager - Item AppConfigFileDestination 'C:\_repos\personal\interview-qs\ConwayGameOfLife\ConwayGameOfLife\.vs\ConwayGameOfLife\v16\lut\0\b\ConwayGameOfLife.Test\Debug\netcoreapp3.1\ConwayGameOfLife.Test.dll.config' evaluated via:
+AppConfigFileDestination: '$(OutDir)$(TargetFileName).config' @ C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\MSBuild\Current\Bin\Microsoft.Common.CurrentVersion.targets:303
+  OutDir: '$(OutputPath)' @ C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\MSBuild\Current\Bin\Microsoft.Common.CurrentVersion.targets:193
+    OutputPath: '$(OutputPath)$(TargetFramework.ToLowerInvariant())\' @ C:\Program Files\dotnet\sdk\3.1.401\Sdks\Microsoft.NET.Sdk\targets\Microsoft.NET.TargetFrameworkInference.targets:186
+      OutputPath: '$(BaseOutputPath)$(Configuration)\' @ C:\Program Files\dotnet\sdk\3.1.401\Sdks\Microsoft.NET.Sdk\targets\Microsoft.NET.DefaultOutputPaths.targets:33
+        BaseOutputPath: 'C:\_repos\personal\interview-qs\ConwayGameOfLife\ConwayGameOfLife\.vs\ConwayGameOfLife\v16\lut\0\b\ConwayGameOfLife.Test\' @ C:\_repos\personal\interview-qs\ConwayGameOfLife\ConwayGameOfLife\ConwayGameOfLife.Test\ConwayGameOfLife.Test.csproj:0
+        Configuration: 'Debug'
+  TargetFileName: '$(TargetName)$(TargetExt)' @ C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\MSBuild\Current\Bin\Microsoft.Common.CurrentVersion.targets:212
+    TargetName: '$(AssemblyName)' @ C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\MSBuild\Current\Bin\Microsoft.Common.CurrentVersion.targets:204
+      AssemblyName: '$(MSBuildProjectName)' @ C:\Program Files\dotnet\sdk\3.1.401\Sdks\Microsoft.NET.Sdk\targets\Microsoft.NET.Sdk.props:32
+        MSBuildProjectName: 'ConwayGameOfLife.Test'
+    TargetExt: '.dll' @ C:\Program Files\dotnet\sdk\3.1.401\Sdks\Microsoft.NET.Sdk\targets\Microsoft.NET.Sdk.BeforeCommon.targets:82
+[21:03:42.154 Verbose] - BuildManager - Item _DebugSymbolsOutputPath 'C:\_repos\personal\interview-qs\ConwayGameOfLife\ConwayGameOfLife\.vs\ConwayGameOfLife\v16\lut\0\b\ConwayGameOfLife.Test\Debug\netcoreapp3.1\ConwayGameOfLife.Test.pdb' evaluated via:
+_DebugSymbolsOutputPath: '@(_DebugSymbolsIntermediatePath->'$(OutDir)%(Filename)%(Extension)')' @ C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\MSBuild\Current\Bin\Microsoft.Common.CurrentVersion.targets:372
+  OutDir: '$(OutputPath)' @ C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\MSBuild\Current\Bin\Microsoft.Common.CurrentVersion.targets:193
+    OutputPath: '$(OutputPath)$(TargetFramework.ToLowerInvariant())\' @ C:\Program Files\dotnet\sdk\3.1.401\Sdks\Microsoft.NET.Sdk\targets\Microsoft.NET.TargetFrameworkInference.targets:186
+      OutputPath: '$(BaseOutputPath)$(Configuration)\' @ C:\Program Files\dotnet\sdk\3.1.401\Sdks\Microsoft.NET.Sdk\targets\Microsoft.NET.DefaultOutputPaths.targets:33
+        BaseOutputPath: 'C:\_repos\personal\interview-qs\ConwayGameOfLife\ConwayGameOfLife\.vs\ConwayGameOfLife\v16\lut\0\b\ConwayGameOfLife.Test\' @ C:\_repos\personal\interview-qs\ConwayGameOfLife\ConwayGameOfLife\ConwayGameOfLife.Test\ConwayGameOfLife.Test.csproj:0
+        Configuration: 'Debug'
+[21:03:42.154 Verbose] - BuildManager - Item _ApplicationManifestFinal 'C:\_repos\personal\interview-qs\ConwayGameOfLife\ConwayGameOfLife\.vs\ConwayGameOfLife\v16\lut\0\b\ConwayGameOfLife.Test\Debug\netcoreapp3.1\Native.ConwayGameOfLife.Test.manifest' evaluated via:
+_ApplicationManifestFinal: '$(OutDir)$(_DeploymentTargetApplicationManifestFileName)' @ C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\MSBuild\Current\Bin\Microsoft.Common.CurrentVersion.targets:410
+  OutDir: '$(OutputPath)' @ C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\MSBuild\Current\Bin\Microsoft.Common.CurrentVersion.targets:193
+    OutputPath: '$(OutputPath)$(TargetFramework.ToLowerInvariant())\' @ C:\Program Files\dotnet\sdk\3.1.401\Sdks\Microsoft.NET.Sdk\targets\Microsoft.NET.TargetFrameworkInference.targets:186
+      OutputPath: '$(BaseOutputPath)$(Configuration)\' @ C:\Program Files\dotnet\sdk\3.1.401\Sdks\Microsoft.NET.Sdk\targets\Microsoft.NET.DefaultOutputPaths.targets:33
+        BaseOutputPath: 'C:\_repos\personal\interview-qs\ConwayGameOfLife\ConwayGameOfLife\.vs\ConwayGameOfLife\v16\lut\0\b\ConwayGameOfLife.Test\' @ C:\_repos\personal\interview-qs\ConwayGameOfLife\ConwayGameOfLife\ConwayGameOfLife.Test\ConwayGameOfLife.Test.csproj:0
+        Configuration: 'Debug'
+  _DeploymentTargetApplicationManifestFileName: 'Native.$(AssemblyName).manifest' @ C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\MSBuild\Current\Bin\Microsoft.Common.CurrentVersion.targets:228
+    AssemblyName: '$(MSBuildProjectName)' @ C:\Program Files\dotnet\sdk\3.1.401\Sdks\Microsoft.NET.Sdk\targets\Microsoft.NET.Sdk.props:32
+      MSBuildProjectName: 'ConwayGameOfLife.Test'

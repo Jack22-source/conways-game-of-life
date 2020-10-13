@@ -1,0 +1,3 @@
+C:\_repos\personal\interview-qs\ConwayGameOfLife\ConwayGameOfLife\.vs\ConwayGameOfLife\v16\lut\0\i\ConwayGameOfLife.Test\Debug\netcoreapp3.1\ConwayGameOfLife.Test.csprojAssemblyReference.cache
+C:\_repos\personal\interview-qs\ConwayGameOfLife\ConwayGameOfLife\.vs\ConwayGameOfLife\v16\lut\0\i\ConwayGameOfLife.Test\Debug\netcoreapp3.1\ConwayGameOfLife.Test.AssemblyInfoInputs.cache
+C:\_repos\personal\interview-qs\ConwayGameOfLife\ConwayGameOfLife\.vs\ConwayGameOfLife\v16\lut\0\i\ConwayGameOfLife.Test\Debug\netcoreapp3.1\ConwayGameOfLife.Test.AssemblyInfo.cs
